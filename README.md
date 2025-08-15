@@ -1,6 +1,6 @@
 # Normalizing Flows on Digits Dataset
 
-A PyTorch implementation of **Normalizing Flows** (affine coupling layers) to model the probability distribution of the scikit-learn Digits dataset and generate digit-like samples.
+This is a simple implementation of normalizing flow (affine coupling layer) concepts, created for the PiMA project to illustrate the methodology on the scikit-learn Digits dataset. 
 
 ## Overview
 Normalizing Flows transform a simple base distribution (e.g., Gaussian/Logistic) into a complex target distribution via a sequence of invertible mappings, enabling:
