@@ -16,7 +16,4 @@ Normalizing Flows transform a simple base distribution (e.g., Gaussian/Logistic)
 
 ## Results
 - Trained flow generates digit-like images.
-- Test log-likelihood (avg): **[fill with your value]**.
-- Example samples: *(add images to `assets/` and link them here)*
-
-## Repo Structure
+- Example samples: (assets/generated_digits.png)
