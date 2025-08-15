@@ -10,9 +10,8 @@ Normalizing Flows transform a simple base distribution (e.g., Gaussian/Logistic)
 ## Pipeline
 - **Data**: scikit-learn Digits (8×8 grayscale)
 - **Preprocessing**: scaling/normalization
-- **Model**: coupling layers + log-det-Jacobian
+- **Model**: affine coupling layers + log-det-Jacobian
 - **Training**: maximize log-likelihood (optimize NLL)
-- **Evaluation**: average log-likelihood on test set + visual inspection of generated samples
 
 ## Results
 - Trained flow generates digit-like images.
