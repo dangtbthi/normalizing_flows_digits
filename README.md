@@ -1,19 +1,14 @@
 # Normalizing Flows on Digits Dataset
 
-This is a simple implementation of normalizing flow (affine coupling layer) concepts, created for the PiMA project to illustrate the methodology on the scikit-learn Digits dataset. 
+## Project Overview
+This is a simple implementation of normalizing flow (affine coupling layer) concepts, created for the PiMA The Mathematics of Generative Models Summer Program 2025 project to illustrate the methodology on the scikit-learn Digits dataset. 
 
-## Overview
-Normalizing Flows transform a simple base distribution (e.g., Gaussian/Logistic) into a complex target distribution via a sequence of invertible mappings, enabling:
+## Methods
+Normalizing Flows transform a simple base distribution (in this project I use standard logistic distribution) into a complex target distribution via a sequence of invertible mappings, enabling:
 - **Exact log-likelihood** computation for training
 - **Sampling** to generate new data
 
-## Pipeline
-- **Data**: scikit-learn Digits (8×8 grayscale)
-- **Preprocessing**: scaling/normalization
-- **Model**: affine coupling layers + log-det-Jacobian
-- **Training**: maximize log-likelihood (optimize NLL)
+## References
+1. George Papamakarios, et al. Normalizing Flows for Probabilistic Modeling and Inference. 2021. [https://arxiv.org/abs/1912.02762](https://arxiv.org/abs/1912.02762)
+2. PiMA The Mathematics of Generative Models online course
 
-## Results
-- Trained flow generates digit-like images.
-- Example samples:
-![Generated digits](generated_digits.png)
