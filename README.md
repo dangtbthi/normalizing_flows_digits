@@ -1,7 +1,7 @@
 # Normalizing Flows on Digits Dataset
 
 ## Project Overview
-This is a simple implementation of normalizing flow (affine coupling layer) concepts, created for the PiMA The Mathematics of Generative Models Summer Program 2025 project to illustrate the methodology on the scikit-learn Digits dataset. 
+This is a simple implementation of normalizing flow (autoregressive flows via affine coupling layer) concepts, created for the PiMA The Mathematics of Generative Models Summer Program 2025 project to illustrate the methodology on the scikit-learn Digits dataset. 
 Special thanks to the instructors and fellow participants for discussions and collaboration, as this was not an individual project.  
 
 ## Methods
